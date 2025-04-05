@@ -31,7 +31,7 @@ This project is designed to identify and filter research papers from PubMed sear
 4.  **Save Results:** The filtered data is stored in a CSV file (or printed to the console) with the following columns:
     * PubmedID: Unique identifier for the paper.
     * Title: Title of the paper. 
-    * Publication Date: Date the paper was published. [cite: 5]
+    * Publication Date: Date the paper was published.
     * Non-academic Author(s): Names of authors affiliated with non-academic institutions. 
     * Company Affiliation(s): Names of pharmaceutical/biotech companies.
     * Corresponding Author Email: Email address of the corresponding author.
@@ -68,7 +68,7 @@ The project is structured as follows:
     poetry run get-papers-list "<your_pubmed_query>" [-f <output_filename.csv>] [-d] [-h]
     ```
 
-    * `<your_pubmed_query>`: The PubMed query string (required). [cite: 7, 29]
+    * `<your_pubmed_query>`: The PubMed query string (required).
     * `-f <output_filename.csv>` or `--file <output_filename.csv>`:  Specify the filename for the CSV output. If omitted, output is printed to the console.
     * `-d` or `--debug`:  Enable debug mode for verbose output.
     * `-h` or `--help`: Display help message and exit.
@@ -117,7 +117,7 @@ The program will be evaluated based on the following criteria:
 ##   Bonus Features
 
 * The program is separated into a module and a command-line program. 
-* (Optional) The module can be published to test-pypi.
+* The module can be published to test-pypi.
 
 ##   Future Improvements
 
@@ -132,4 +132,4 @@ The following enhancements could be considered for future development:
 
 ##   License
 
-📜Rajnish Chaube – Free to use and modify
+📜Rajnish Chaube – Free to use and learn
